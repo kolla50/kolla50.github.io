@@ -16,11 +16,13 @@ function processResult(result) {
    if (result === 'heads') {
       headsCount++;
       heads.innerText = headsCount;
+      status.innerText = "Kølla!";
     } else {
       tailsCount++;
       tails.innerText = tailsCount;
+      status.innerText = "Bedre lykke neste gang";
     }
-    status.innerText = result.toUpperCase();
+    
 }
 
 function flipCoin() {
