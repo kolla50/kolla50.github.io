@@ -34,7 +34,7 @@ button {
 }
 
 .heads {
-    background-image: url("https://en.numista.com/catalogue/photos/inde/2311-original.jpg");
+    background-image: url("kolla.jpg");
 }
 
 .animate-heads {
@@ -52,7 +52,7 @@ button {
 }
 
 .tails {
-    background-image: url("https://en.numista.com/catalogue/photos/inde/3165-original.jpg");
+    background-image: url("uflaks.jpg");
   transform: rotateY(-180deg);
 }
 
